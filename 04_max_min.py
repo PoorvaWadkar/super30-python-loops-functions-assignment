@@ -17,7 +17,7 @@ smallest = numbers[0]
 for number in numbers[1:]:
 
     # Check if the current number is greater than the largest number
-    if number > largest:
+    if number > largest:   
         # If yes, update largest with the current number
         largest = number
 

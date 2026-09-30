@@ -16,7 +16,7 @@ n = int(input("Enter the number of rows: "))
 for row in range(1, n + 1):
 
     # Inner loop prints numbers from 1 up to the current row number
-    for number in range(1, row + 1):
+    for number in range(1, row + 1):  
         print(number, end=" ")
 
     # Move to the next line after printing one row

@@ -15,7 +15,7 @@ total = 0
 for number in numbers:
 
     # Add the current number to the total
-    total += number
+    total += number  
 
 # Calculate the average
 average = total / len(numbers)
@@ -28,3 +28,4 @@ print("Total:", total)
 
 # Display the calculated average
 print("Average:", average)
+

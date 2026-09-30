@@ -13,10 +13,10 @@ even_count = 0
 odd_count = 0
 
 # Loop through numbers from 1 to N
-for number in range(1, n + 1):
+for number in range(1, n + 1):  # 1,2,3,4,5,6,7,8,9,10
 
     # Check if the number is divisible by 2
-    if number % 2 == 0:
+    if number % 2 == 0:   
         print(number, "- Even")
 
         # Increase the even number counter by 1
@@ -27,10 +27,12 @@ for number in range(1, n + 1):
         print(number, "- Odd")
 
         # Increase the odd number counter by 1
-        odd_count += 1
+        odd_count += 1   
 
 # Display the total number of even numbers
 print("Total even numbers:", even_count)
 
 # Display the total number of odd numbers
 print("Total odd numbers:", odd_count)
+
+

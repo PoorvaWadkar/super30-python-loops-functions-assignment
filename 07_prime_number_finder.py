@@ -15,7 +15,7 @@ end = int(input("Enter ending number: "))
 print("Prime numbers:")
 
 # Loop through all numbers from start to end
-for number in range(max(2, start), end + 1):
+for number in range(max(2, start), end + 1): 
 
     # Initially assume that the number is prime
     is_prime = True
@@ -38,3 +38,4 @@ for number in range(max(2, start), end + 1):
 
 # Move to the next line after printing all prime numbers
 print()
+

@@ -32,3 +32,4 @@ for character, count in frequency.items():
 
     # Display the character and its frequency
     print(repr(character), ":", count)
+

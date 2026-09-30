@@ -11,7 +11,6 @@ calculate class average marks, display the highest-performing student, and exit 
 # Student details will be stored as a nested dictionary
 students = {}
 
-
 # Function to add a new student
 def add_student():
 

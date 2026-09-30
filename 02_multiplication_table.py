@@ -8,11 +8,14 @@ Then modify the program so the ending range can also be supplied by the user.
 # Take the number for which we want to generate the table
 number = int(input("Enter a number: "))
 
+# Take the ending multiplier from the user
+end = int(input("Enter the ending multiplier:"))
+
 # Display the heading of the multiplication table
 print(f"\nMultiplication table of {number}")
 
 # Loop through the multipliers from 1 to the value of 'end'
-for multiplier in range(1, 11):
+for multiplier in range(1, end + 1):
 
     # Calculate multiplier * number and display the result
     print(f"{multiplier} x {number} = {multiplier * number}")
