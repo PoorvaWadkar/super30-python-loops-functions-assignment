@@ -20,7 +20,7 @@ git clone <your-github-repository-url>
 ```
 ### 2. Open the Project Folder
 ```
-cd super30-python
+cd <project folder name>
 ```
 
 ### 3. Check Python Installation
