@@ -13,10 +13,6 @@ The assignments are designed to build a strong foundation in Python programming 
 
 ## List of Completed Questions
 
-## Setup and Run Instructions
-
-### 1. Clone the Repository
-
 1. Number Analyzer using for Loop
 2. Multiplication Table Generator
 3. Sum and Average Without sum()
@@ -37,6 +33,10 @@ The assignments are designed to build a strong foundation in Python programming 
 18. Employee Salary Calculator
 19. Bank Account Mini Application
 20. Student Registration System
+
+## Setup and Run Instructions
+
+### 1. Clone the Repository
 
 ```bash
 git clone <your-github-repository-url>
